@@ -8,6 +8,8 @@ body{
     background-image: url("/assets/background.webp");
     background-size: cover;
     background-position: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
@@ -20,7 +22,48 @@ body{
 
 .card{
     width: 400px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #43c4da;
     border-radius: 5%;
+    padding: 1rem;
+    border: 10px solid #fd7f2a;
+    text-align: center;
 }
 
+img{
+    height: 220px;
+    border-radius: 60%;
+    border: 5px solid #fd7f2a;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.descricao{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.habilidades{
+    margin-top: 7px;
+}
+
+.caracteristicas{
+    margin-top: 7px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 13px;
+}
